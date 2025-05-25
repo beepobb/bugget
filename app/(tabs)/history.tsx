@@ -3,7 +3,7 @@ import React from 'react';
 
 const History = () => {
     return (
-        <View>
+        <View className='flex-1 justify-center items-center bg-fuchsia-300'>
             <Text>History</Text>
         </View>
     )

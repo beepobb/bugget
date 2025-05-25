@@ -1,14 +1,9 @@
-import { Stack } from "expo-router";
+import { Stack, Tabs } from "expo-router";
 import "./globals.css";
 
 export default function RootLayout() {
-    return (
-        <Stack>
-            <Stack.Screen
-                name="(tabs)"
-                options={{ headerShown: false }}
-            />
-        </Stack>
-    );
-
+  return (
+    <Stack screenOptions={{ headerShown: false }}>
+    </Stack>
+  );
 }
